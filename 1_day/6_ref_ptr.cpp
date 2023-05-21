@@ -21,8 +21,8 @@ int main()
     *ptr = 35;
     cout << "Print var now : " << var << endl;
 
-    int **p = &ptr;
-    int ***p1 = &p;
+    int **p = &ptr; // Stores the address of the ptr
+    int ***p1 = &p; // Stores the address of the p
 
     ***p1 = 100;
     cout << p << '\t' << p1 << endl;

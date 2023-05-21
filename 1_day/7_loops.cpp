@@ -17,14 +17,15 @@ int main()
     for(auto& i: my_vec)
     {
         cout << i << endl;
-    }
+    } // cannot print range based, adv: iterate on array as well
 
-    for_each(my_vec.begin(), my_vec.end(), [](int i){
+    for_each(my_vec.begin(), my_vec.end(), 
+    [](int i){
         cout << i << endl;
-    });
+    }
+    ); // Can print from any index by giving arrays, needs begin and end can't iterate on arrays
 
     for_each(my_vec.begin(), my_vec.end(), print);
-
 
     return 0;
 }
