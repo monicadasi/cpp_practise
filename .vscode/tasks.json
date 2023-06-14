@@ -7,6 +7,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-std=C++20",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
@@ -29,6 +30,7 @@
                 "-g",
                 "${file}",
                 "-o",
+                "-std=C++20",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
@@ -49,6 +51,7 @@
                 "-g",
                 "${file}",
                 "-o",
+                "-std=C++20",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
@@ -69,6 +72,7 @@
                 "-g",
                 "${file}",
                 "-o",
+                "-std=C++20",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
@@ -89,6 +93,7 @@
                 "-g",
                 "${file}",
                 "-o",
+                "-std=C++20",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
@@ -129,6 +134,7 @@
                 "-g",
                 "${file}",
                 "-o",
+                "-std=C++20",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {

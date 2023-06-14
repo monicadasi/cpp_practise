@@ -25,13 +25,13 @@ public:
 
 int main() {
     // Create a unique pointer and transfer ownership using move semantics
-    //std::unique_ptr<Resource> ptr1 = std::make_unique<Resource>();
-    std::unique_ptr<Resource> ptr1(new Resource());
-    // std::unique_ptr<Resource> ptr2 = std::move(ptr1);
+    std::unique_ptr<Resource> ptr1 = std::make_unique<Resource>();
+    //std::unique_ptr<Resource> ptr1(new Resource());
+    std::unique_ptr<Resource> ptr2 = std::move(ptr1);
 
-    // // Use move assignment operator to transfer ownership
-    // std::unique_ptr<Resource> ptr3;
-    // ptr3 = std::move(ptr2);
+    // Use move assignment operator to transfer ownership
+    std::unique_ptr<Resource> ptr3;
+    ptr3 = std::move(ptr2);
 
     return 0;
 }
