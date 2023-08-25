@@ -1,5 +1,5 @@
-# cpp_practise
-- Modern C++ Practise / Fundamental C++ concepts.
+# C++ Practise
+### Modern C++ Practise / Fundamental C++ concepts.
   - auto keyword
   - move semantics
   - rule of 3/ rule of 5
